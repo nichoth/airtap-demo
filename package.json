@@ -6,13 +6,14 @@
   "license": "MIT",
   "author": "Vincent Weevers",
   "scripts": {
-    "test": "airtap test.js"
+    "test": "esbuild ./test.ts --format=iife > test.js && airtap test.js"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@substrate-system/tapzero": "^0.10.5",
     "airtap": "^4.0.2",
     "airtap-default": "^1.0.0",
     "airtap-playwright": "^1.0.1",
+    "esbuild": "^0.24.0",
     "tape": "^5.2.2"
   },
   "keywords": [

@@ -10,3 +10,4 @@ presets:
   default:
     browsers:
       - name: default
+

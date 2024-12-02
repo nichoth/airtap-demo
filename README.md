@@ -2,6 +2,22 @@
 
 **Example of using [`airtap`](https://github.com/airtap/airtap) to unit test JavaScript in browsers.**
 
+----------------------------------------------------------
+
+## build tests
+
+```sh
+npx esbuild ./test.ts --format=iife > test.js
+```
+
+## run tests
+
+```sh
+npx airtap ./test.js
+```
+
+----------------------------------------------------------
+
 ## Install
 
 ```
