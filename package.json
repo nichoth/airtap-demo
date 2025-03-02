@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@substrate-system/tapzero": "^0.10.5",
-    "airtap": "^4.0.2",
+    "airtap": "^5.0.0",
     "airtap-default": "^1.0.0",
     "airtap-playwright": "^1.0.1",
     "esbuild": "^0.25.0",
